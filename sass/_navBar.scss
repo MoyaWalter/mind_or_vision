@@ -1,0 +1,102 @@
+header{
+    width: auto;
+    background-color: rgb(0, 0, 0);;
+    padding-top: 0.50rem;  
+    padding-bottom: 0.50rem;
+
+    nav{
+        width: auto;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a{
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    @media (min-width: 576px) {  
+        header{
+            background-color: rgb(0, 0, 0);;
+            padding-top: 0.50rem;  
+            padding-bottom: 0.50rem;
+
+            nav{
+                background-color: rgb(0, 0, 0);
+                display: flex;
+                justify-content: space-between
+            }
+        }
+
+        a{
+            color: aliceblue;
+            text-decoration: none;
+            font-family: 'Bebas Neue', cursive;
+        }
+    }
+    
+    @media (min-width: 768px){
+        header{
+            background-color: rgb(0, 0, 0);;
+            padding-top: 0.50rem;  
+            padding-bottom: 0.50rem;
+
+            nav{
+                background-color: rgb(0, 0, 0);
+                display: flex;
+                justify-content: space-between
+            }
+        }
+        a{
+            color: aliceblue;
+            text-decoration: none;
+            font-family: 'Bebas Neue', cursive;
+        }
+    }
+
+    @media (min-width: 992px){
+        header{
+            background-color: rgb(0, 0, 0);;
+            padding-top: 0.50rem;  
+            padding-bottom: 0.50rem;
+
+            nav{
+                background-color: rgb(0, 0, 0);
+                display: flex;
+                justify-content: space-between
+            }
+        }
+
+        a{
+            color: aliceblue;
+            text-decoration: none;
+            font-family: 'Bebas Neue', cursive;
+        }
+    }
+    
+    @media (min-width: 1200px) {  
+        /* TODA LA NAVBAR TABLET */ 
+        header{
+            background-color: rgb(0, 0, 0);;
+            padding-top: 0.50rem;  
+            padding-bottom: 0.50rem;
+
+            nav{
+                background-color: rgb(0, 0, 0);
+                display: flex;
+                justify-content: space-between
+            }
+        }
+        .navbar-brand{
+            font-family: 'Holtwood One SC', serif;
+        }
+        a{
+            color: aliceblue;
+            text-decoration: none;
+            font-family: 'Bebas Neue', cursive;
+        }
+    }
+}

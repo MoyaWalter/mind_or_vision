@@ -1,0 +1,103 @@
+@import "fuentes";
+@import "generales";
+@import "navBar";
+@import "media";
+@import "footer";
+/* CAJAS DEL MEDIO Y CONTENIDO MOBILE */
+
+
+    /* PARTE DE SECCION (nosotros) EN SERVICIO*/
+    .section_nosotros{
+        text-align: center;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        color: black;
+        font-family: 'Inconsolata', monospace;
+        font-weight: bold;
+    }
+    .h1_nosotros{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 5rem;
+        font-weight: bold;
+        text-align: center;
+        color: black;
+    }
+
+
+    /* CARDS NOSOTROS */
+    .main_nosotros{
+        background-image: linear-gradient(to bottom, gray, white);
+    }
+    .card{
+        background-color: gray;
+    }
+    .card-text{
+        font-family: 'Inconsolata', monospace;
+    }
+
+
+
+        /* PARTE DE SECCION (nosotros) EN SERVICIO esto es 578px*/
+        .section_nosotros{
+            text-align: center;
+            padding-left: 5rem;
+            padding-right: 5rem;
+            color: black;
+        }
+        .h1_nosotros{
+            font-family: 'Bebas Neue', cursive;
+            font-size: 5rem;
+            text-align: center;
+            color: black;
+        }
+
+  /* MOBILE HORIZONTAL */
+        /* PARTE DE SECCION (nosotros) EN SERVICIO esto es 780*/
+        .section_nosotros{
+            text-align: center;
+            padding-left: 5rem;
+            padding-right: 5rem;
+            color: black;
+        }
+        .h1_nosotros{
+            font-family: 'Bebas Neue', cursive;
+            font-size: 5rem;
+            text-align: center;
+            color: black;
+        }
+
+  /* TABLETS */
+
+        /* PARTE DE SECCION (nosotros) EN SERVICIO esto es 980*/
+        .section_nosotros{
+            text-align: center;
+            padding-left: 5rem;
+            padding-right: 5rem;
+            color: black;
+        }
+        .h1_nosotros{
+            font-family: 'Bebas Neue', cursive;
+            font-size: 5rem;
+            text-align: center;
+            color: black;
+        }
+
+    /* DESKTOP */
+    
+            /* PARTE DE SECCION (nosotros) EN SERVICIO esto es 1200*/
+            .section_nosotros{
+                text-align: center;
+                padding-left: 5rem;
+                padding-right: 5rem;
+                color: black;
+            }
+
+            .h1_nosotros{
+                font-family: 'Bebas Neue', cursive;
+                font-size: 5rem;
+                text-align: center;
+                color: black;
+            }
+
+
+          
