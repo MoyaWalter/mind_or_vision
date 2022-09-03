@@ -1,13 +1,13 @@
 header{
     width: auto;
-    background-color: rgb(0, 0, 0);;
+    background-color: black;
     padding-top: 0.50rem;  
     padding-bottom: 0.50rem;
 
     nav{
         width: auto;
         height: auto;
-        background-color: rgb(0, 0, 0);
+        background-color: black;
         display: flex;
         justify-content: space-between;
     }
@@ -77,15 +77,15 @@ header{
         }
     }
     
-    @media (min-width: 1200px) {  
+    @media (min-width: 1100px) {  
         /* TODA LA NAVBAR TABLET */ 
         header{
-            background-color: rgb(0, 0, 0);;
+            background-color: black;
             padding-top: 0.50rem;  
             padding-bottom: 0.50rem;
 
             nav{
-                background-color: rgb(0, 0, 0);
+                background-color: black;
                 display: flex;
                 justify-content: space-between
             }

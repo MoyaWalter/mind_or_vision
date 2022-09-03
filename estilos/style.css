@@ -7,14 +7,14 @@
 
 header {
   width: auto;
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 header nav {
   width: auto;
   height: auto;
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   display: flex;
   justify-content: space-between;
 }
@@ -74,17 +74,17 @@ header a {
     font-family: "Bebas Neue", cursive;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
   header {
     /* TODA LA NAVBAR TABLET */
   }
   header header {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
   header header nav {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     display: flex;
     justify-content: space-between;
   }
@@ -101,13 +101,12 @@ header a {
 main {
   width: 100%;
   height: 100%;
-  background-color: rgb(255, 255, 255);
 }
 
 .section_index {
   width: 100%;
   height: 100%;
-  background-image: url(../images/fondoMain.jpg);
+  background-image: url(../images/_fondo+iconos/fondoMain.jpg);
 }
 
 .general_indexMind {
@@ -135,14 +134,11 @@ main {
 }
 
 .h1_principal {
-  padding-top: 2rem;
-  font-size: 5rem;
-}
-
-.h1-estilos, .h1_principal {
   font-family: "Holtwood One SC", serif;
   text-align: center;
   color: black;
+  padding-top: 2rem;
+  font-size: 5rem;
 }
 
 @media (min-width: 576px) {
@@ -225,12 +221,15 @@ main {
             animation: bajar 7s infinite;
   }
   .general_indexVision {
-    width: 40rem;
+    width: 36rem;
     background-color: transparent;
     -webkit-animation: bajar 7s infinite;
             animation: bajar 7s infinite;
   }
   .h1_principal {
+    font-family: "Holtwood One SC", serif;
+    text-align: center;
+    color: black;
     padding-top: 2rem;
     font-size: 7rem;
   }
@@ -324,9 +323,9 @@ main {
   .h1_principal {
     font-family: "Holtwood One SC", serif;
     text-align: center;
+    color: black;
     padding-top: 2rem;
     font-size: 7rem;
-    color: black;
     -webkit-animation: bajar 7s infinite;
             animation: bajar 7s infinite;
   }
@@ -354,16 +353,16 @@ main {
   .h1_principal {
     font-family: "Holtwood One SC", serif;
     text-align: center;
+    color: black;
     padding-top: 2rem;
     font-size: 9rem;
-    color: rgb(0, 0, 0);
   }
 }
 @media (min-width: 1100px) {
   .section_index {
     width: 100%;
     height: 100%;
-    background-image: url(../images/fondoMain.jpg);
+    background-image: url(../images/_fondo+iconos/fondoMain.jpg);
   }
   .general_indexMind {
     padding-top: -4;
@@ -450,9 +449,9 @@ main {
   .h1_principal {
     font-family: "Holtwood One SC", serif;
     text-align: center;
+    color: black;
     padding-top: 2rem;
     font-size: 9rem;
-    color: rgb(0, 0, 0);
   }
 }
 footer {
@@ -482,9 +481,10 @@ footer {
   padding-top: 0.5rem;
 }
 
-/* CAJAS DEL MEDIO Y CONTENIDO MOBILE */
-/* PARTE DE SECCION (nosotros) EN SERVICIO*/
-.section_nosotros {
+.main_nosotros {
+  background-image: linear-gradient(to bottom, gray, white);
+}
+.main_nosotros .section_nosotros {
   text-align: center;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -492,18 +492,12 @@ footer {
   font-family: "Inconsolata", monospace;
   font-weight: bold;
 }
-
-.h1_nosotros {
+.main_nosotros .section_nosotros .h1_nosotros {
   font-family: "Bebas Neue", cursive;
   font-size: 5rem;
   font-weight: bold;
   text-align: center;
   color: black;
-}
-
-/* CARDS NOSOTROS */
-.main_nosotros {
-  background-image: linear-gradient(to bottom, gray, white);
 }
 
 .card {
@@ -514,65 +508,18 @@ footer {
   font-family: "Inconsolata", monospace;
 }
 
-/* PARTE DE SECCION (nosotros) EN SERVICIO esto es 578px*/
-.section_nosotros {
+.letra_clientes, .h1_tecnicos, .h1_clientes {
   text-align: center;
-  padding-left: 5rem;
-  padding-right: 5rem;
   color: black;
-}
-
-.h1_nosotros {
   font-family: "Bebas Neue", cursive;
+}
+
+.h1_clientes {
   font-size: 5rem;
-  text-align: center;
-  color: black;
+  font-weight: bold;
 }
 
-/* MOBILE HORIZONTAL */
-/* PARTE DE SECCION (nosotros) EN SERVICIO esto es 780*/
-.section_nosotros {
-  text-align: center;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  color: black;
-}
-
-.h1_nosotros {
-  font-family: "Bebas Neue", cursive;
+.h1_tecnicos {
   font-size: 5rem;
-  text-align: center;
-  color: black;
-}
-
-/* TABLETS */
-/* PARTE DE SECCION (nosotros) EN SERVICIO esto es 980*/
-.section_nosotros {
-  text-align: center;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  color: black;
-}
-
-.h1_nosotros {
-  font-family: "Bebas Neue", cursive;
-  font-size: 5rem;
-  text-align: center;
-  color: black;
-}
-
-/* DESKTOP */
-/* PARTE DE SECCION (nosotros) EN SERVICIO esto es 1200*/
-.section_nosotros {
-  text-align: center;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  color: black;
-}
-
-.h1_nosotros {
-  font-family: "Bebas Neue", cursive;
-  font-size: 5rem;
-  text-align: center;
-  color: black;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

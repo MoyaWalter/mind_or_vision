@@ -1,0 +1,27 @@
+.main_nosotros{
+    background-image: linear-gradient(to bottom, gray, white);
+
+   .section_nosotros{
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: black;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+
+    .h1_nosotros{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 5rem;
+        font-weight: bold;
+        text-align: center;
+        color: black;
+        }
+    }
+}
+
+.card{
+    background-color: gray;
+}
+.card-text{
+    font-family: 'Inconsolata', monospace;
+}

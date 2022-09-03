@@ -1,0 +1,20 @@
+.letra_clientes{
+    text-align: center;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.h1_clientes{
+    @extend .letra_clientes;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+@mixin size ($font-size) {
+    font-size: $font-size;
+}
+.h1_tecnicos{
+    @extend .letra_clientes;
+    @include size(5rem);
+    font-weight: bold;
+}
