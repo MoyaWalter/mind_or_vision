@@ -1,6 +1,6 @@
 .letra_clientes{
     text-align: center;
-    color: black;
+    color: rgb(0, 0, 0);
     font-family: 'Bebas Neue', cursive;
 
 }
@@ -17,4 +17,17 @@
     @extend .letra_clientes;
     @include size(5rem);
     font-weight: bold;
+}
+.main-clientes{
+    background-image: url(../images/_fondo+iconos/fondo-secciones.jpg )  ;
+}
+
+.card-title{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.card-text{
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
 }

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Fira+Mono&family=Holtwood+One+SC&family=Inconsolata:wght@300&family=Notable&family=Poppins:wght@500&family=Raleway:ital,wght@0,100;1,500&family=Rubik+Mono+One&family=Staatliches&family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Cabin&family=Fira+Mono&family=Holtwood+One+SC&family=Inconsolata:wght@300&family=Notable&family=Poppins:wght@500&family=Raleway:ital,wght@0,100;1,500&family=Rubik+Mono+One&family=Staatliches&family=Teko&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -98,38 +98,35 @@ header a {
   }
 }
 
-main {
-  width: 100%;
-  height: 100%;
+.body-inicio {
+  background-image: url(../images/_fondo+iconos/diego-background.jpg);
+  background-attachment: fixed;
+  background-position: 50%;
 }
 
 .section_index {
-  width: 100%;
-  height: 100%;
-  background-image: url(../images/_fondo+iconos/fondoMain.jpg);
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+  padding-left: 0.25rem;
+  margin: 0;
 }
 
 .general_indexMind {
-  width: auto;
-  height: 10rem;
-  padding-top: 3rem;
-  padding-right: 8.5rem;
+  display: flex;
   background-color: transparent;
 }
 
 .general_indexOr {
-  margin: 0;
-  height: 6.5rem;
-  width: auto;
-  padding-right: 16rem;
+  display: flex;
   background-color: transparent;
 }
 
 .general_indexVision {
-  height: 6.5rem;
-  width: auto;
-  padding-bottom: 13rem;
-  padding-right: 6.5rem;
+  display: flex;
+  padding-bottom: 2rem;
   background-color: transparent;
 }
 
@@ -138,28 +135,61 @@ main {
   text-align: center;
   color: black;
   padding-top: 2rem;
+  font-weight: bolder;
   font-size: 5rem;
 }
 
+@media (min-width: 250px) {
+  .body-inicio {
+    background-image: url(../images/_fondo+iconos/diego4.jpg);
+    background-attachment: fixed;
+    background-position: 25% 25%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .h1_principal {
+    font-size: 3.7rem;
+    color: gray;
+  }
+}
+@media (min-width: 345px) {
+  .body-inicio {
+    background-image: url(../images/_fondo+iconos/diego4.jpg);
+    background-attachment: fixed;
+    background-position: 30% 25%;
+  }
+  .h1_principal {
+    font-size: 5rem;
+    color: gray;
+  }
+}
 @media (min-width: 576px) {
+  .body-inicio {
+    background-image: url(../images/_fondo+iconos/diego-background.jpg);
+    background-position: 35%;
+  }
   .section_index {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+    padding-left: 0.25rem;
+    margin: 0;
+    -webkit-animation: bajar 7s infinite;
+            animation: bajar 7s infinite;
   }
   .general_indexMind {
-    width: 31rem;
-    padding-bottom: 8 rem;
     background-color: transparent;
     -webkit-animation: bajar 7s infinite;
             animation: bajar 7s infinite;
   }
   @-webkit-keyframes bajar {
     0% {
-      margin-top: -70;
+      margin-top: -50;
     }
     20% {
-      margin-top: -70;
+      margin-top: -50;
     }
     25% {
       margin-top: 0px;
@@ -168,10 +198,10 @@ main {
       margin-top: 0px;
     }
     55% {
-      margin-top: -70;
+      margin-top: -50;
     }
     80% {
-      margin-top: -70;
+      margin-top: -50;
     }
     85% {
       margin-top: 0px;
@@ -185,10 +215,10 @@ main {
   }
   @keyframes bajar {
     0% {
-      margin-top: -70;
+      margin-top: -50;
     }
     20% {
-      margin-top: -70;
+      margin-top: -50;
     }
     25% {
       margin-top: 0px;
@@ -197,10 +227,10 @@ main {
       margin-top: 0px;
     }
     55% {
-      margin-top: -70;
+      margin-top: -50;
     }
     80% {
-      margin-top: -70;
+      margin-top: -50;
     }
     85% {
       margin-top: 0px;
@@ -213,15 +243,11 @@ main {
     }
   }
   .general_indexOr {
-    margin-top: -4rem;
-    width: 20rem;
-    padding-bottom: 8rem;
     background-color: transparent;
     -webkit-animation: bajar 7s infinite;
             animation: bajar 7s infinite;
   }
   .general_indexVision {
-    width: 36rem;
     background-color: transparent;
     -webkit-animation: bajar 7s infinite;
             animation: bajar 7s infinite;
@@ -236,14 +262,19 @@ main {
 }
 @media (min-width: 768px) {
   .section_index {
-    width: 100%;
-    height: 100%;
-    background-color: white;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+    padding-left: 0.25rem;
+    margin: 0;
+    -webkit-animation: bajar 7s infinite;
+            animation: bajar 7s infinite;
   }
   .general_indexMind {
     width: 35rem;
     background-color: transparent;
-    padding-bottom: 8rem;
     -webkit-animation: bajar 10s infinite;
             animation: bajar 10s infinite;
   }
@@ -306,9 +337,7 @@ main {
     }
   }
   .general_indexOr {
-    margin-top: -4rem;
     width: 30rem;
-    padding-bottom: 8rem;
     background-color: transparent;
     -webkit-animation: bajar 7s infinite;
             animation: bajar 7s infinite;
@@ -332,9 +361,15 @@ main {
 }
 @media (min-width: 992px) {
   .section_index {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+    padding-left: 0.25rem;
+    margin: 0;
+    -webkit-animation: bajar 7s infinite;
+            animation: bajar 7s infinite;
   }
   .general_indexMind {
     width: 37rem;
@@ -346,9 +381,10 @@ main {
     background-color: transparent;
   }
   .general_indexVision {
-    height: 15rem;
+    height: 18rem;
     width: 45rem;
-    background-color: transparent;
+    padding-bottom: rem;
+    background-color: tra;
   }
   .h1_principal {
     font-family: "Holtwood One SC", serif;
@@ -360,9 +396,15 @@ main {
 }
 @media (min-width: 1100px) {
   .section_index {
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/_fondo+iconos/fondoMain.jpg);
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+    padding-left: 0.25rem;
+    margin: 0;
+    -webkit-animation: bajar 7s infinite;
+            animation: bajar 7s infinite;
   }
   .general_indexMind {
     padding-top: -4;
@@ -438,10 +480,10 @@ main {
             animation: bajar 7s infinite;
   }
   .general_indexVision {
-    margin: 0rem;
-    margin-top: -5rem;
     height: 15rem;
     width: 41rem;
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
     background-color: transparent;
     -webkit-animation: bajar 7s infinite;
             animation: bajar 7s infinite;
@@ -457,7 +499,17 @@ main {
 footer {
   width: auto;
   height: 8rem;
-  background-color: rgb(0, 0, 0);
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-secciones {
+  width: auto;
+  height: 8rem;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -467,11 +519,12 @@ footer {
 .letraFooter {
   margin-left: 1rem;
   color: transparent;
+  text-decoration: none;
 }
 
 .footerLogo {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.8rem;
+  height: 1.8rem;
 }
 
 .footerParrafo {
@@ -481,36 +534,82 @@ footer {
   padding-top: 0.5rem;
 }
 
-.main_nosotros {
-  background-image: linear-gradient(to bottom, gray, white);
+.footerLogo:hover {
+  background-color: gray;
+  height: 1.8rem;
 }
-.main_nosotros .section_nosotros {
-  text-align: center;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  color: black;
-  font-family: "Inconsolata", monospace;
-  font-weight: bold;
+
+.body-servicios {
+  background-color: black;
 }
-.main_nosotros .section_nosotros .h1_nosotros {
+
+.main-servicios {
+  background-image: url(../images/_fondo+iconos/fondo-secciones.jpg);
+}
+.main-servicios .h1-servicios {
   font-family: "Bebas Neue", cursive;
   font-size: 5rem;
   font-weight: bold;
   text-align: center;
   color: black;
 }
-
-.card {
-  background-color: gray;
+.main-servicios .section-servicios {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 5rem;
 }
-
-.card-text {
-  font-family: "Inconsolata", monospace;
+.main-servicios .cards {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  background-color: rgb(255, 255, 255);
+}
+.main-servicios .cards:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.main-servicios .cards img {
+  width: 330px;
+  height: 220px;
+}
+.main-servicios .subtittle-servicios {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.main-servicios .font-servicios {
+  padding-top: 0.25rem;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.main-servicios .parrafo-servicios {
+  font-family: "Cabin", sans-serif;
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.main-servicios a {
+  text-decoration: none;
 }
 
 .letra_clientes, .h1_tecnicos, .h1_clientes {
   text-align: center;
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: "Bebas Neue", cursive;
 }
 
@@ -522,4 +621,162 @@ footer {
 .h1_tecnicos {
   font-size: 5rem;
   font-weight: bold;
+}
+
+.main-clientes {
+  background-image: url(../images/_fondo+iconos/fondo-secciones.jpg);
+}
+
+.card-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-family: "Cabin", sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+body {
+  background-image: url(../images/_fondo+iconos/fondo-secciones.jpg);
+}
+
+.main-contacto {
+  background-attachment: fixed;
+  margin: 0;
+}
+
+form {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  transition: all 0.25s;
+}
+
+.tittle-form h2 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#boton {
+  background: #000000;
+  color: #fff;
+  padding: 20px;
+}
+
+#boton:hover {
+  cursor: pointer;
+}
+
+iframe {
+  width: 100%;
+  height: 20rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.section-formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+}
+
+.card-contacto {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.25s;
+  margin-bottom: 65px;
+}
+
+.card-contacto:hover, form:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+h2, h4, h5 {
+  font-family: "Cabin", sans-serif;
+  font-size: 1rem;
+  color: #000000;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img-contacto {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 0.7rem;
+}
+
+u {
+  font-weight: bold;
+  padding-right: 0.5rem;
+}
+
+.estilos-contacto {
+  display: flex;
+  font-family: "Cabin", sans-serif;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 992px) {
+  form {
+    width: 100%;
+    margin-top: 0;
+  }
+  .section-formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .card-contacto {
+    width: 100%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.25s;
+    margin-bottom: 3rem;
+  }
+  .card-contacto:hover, form:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+.img-fluid {
+  height: 100%;
 }/*# sourceMappingURL=style.css.map */
